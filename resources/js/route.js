@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
 import Login from './components/Common/login.vue'
+import login2 from './components/Common/login2.vue'
 import userDashboard from './components/Common/userDashboard.vue'
 import adminDashboard from './components/Common/adminDashboard.vue'
 import dashboard from './components/Common/dashboard.vue'
@@ -15,6 +16,12 @@ const router = new VueRouter({
             path: '/', 
             component: Login,
             name: 'Login',
+          
+        },
+        { 
+            path: '/login2', 
+            component: login2,
+            name: 'login2',
           
         },
         { 
