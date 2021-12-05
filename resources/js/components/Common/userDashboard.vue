@@ -4,7 +4,7 @@
             <b-navbar class="shadow py-0" variant="dark">
                 <b-navbar-brand href="#" class="m-auto d-flex align-items-center py-0">
                     <img src="/all-assets/common/logo/cpb/cpbit.png" alt="header-logo" class="img-fluid header__logo">
-                    <div class="h3 font-weight-bold text-white nav_text">CPB-IT Dashboard</div>
+                    <div class="h3 font-weight-bold text-white nav_text">CPB-IT User Dashboard</div>
                 </b-navbar-brand>
                 <b-navbar-nav>
                     <b-nav-item>
