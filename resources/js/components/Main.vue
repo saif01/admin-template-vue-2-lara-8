@@ -1,8 +1,8 @@
 <template>
     <div>
-        <router-view></router-view>
+        <!-- <router-view></router-view> -->
         <!-- <login-component></login-component> -->
-        <!-- <div class="d-flex">
+        <div class="d-flex">
             <div class="p-0" :class="{'col-md-4 col-sm-6 sidebar_response':response, 'sidebar_mobile col-md-3 col-lg-2 sidebar_noresponse' :!response}">
                 <sidebar-component></sidebar-component>
             </div>
@@ -17,16 +17,24 @@
                 </div>
                 <footer-component></footer-component>
             </div>
-        </div> -->
+        </div>
     </div>
 </template>
 
 <script>
+import sidebar from "./Common/sidebar.vue";
+import navbar from "./Common/navbar.vue";
+import footer from "./Common/footer.vue";
     export default {
         data() {
             return {
                 response: false,
             };
+        },
+        components:{
+            "sidebar-component":sidebar,
+            "navbar-component":navbar,
+            "footer-component":footer,
         },
         methods: {
             getResponse(res) {

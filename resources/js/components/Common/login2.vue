@@ -231,6 +231,7 @@
     position: absolute;
     border-radius: 50%;
 }
+ 
 @for $i from 1 through 30 {
     @keyframes particle-animation-#{$i} {
         100% {

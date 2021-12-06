@@ -14,7 +14,7 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         { 
-            path: '/', 
+            path: '/prestart', 
             component: prestart,
             name: 'prestart',
           
