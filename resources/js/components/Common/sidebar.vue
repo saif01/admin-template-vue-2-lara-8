@@ -20,11 +20,7 @@
                     <b-nav-item>
                         <router-link :to="{ name: '' }" v-b-toggle.collapse-1>
                             <li>
-                                <div class="
-                                            d-flex
-                                            align-items-center
-                                            justify-content-between
-                                        ">
+                                <div class="d-flex align-items-center justify-content-between">
                                     <div>
                                         <i class="ri-dashboard-line mr-3"></i>
 
@@ -34,7 +30,7 @@
                                     <i class="ri-arrow-left-s-line"></i>
                                 </div>
                             </li>
-                        </router-link>
+                            </router-link>
                     </b-nav-item>
 
                     <b-collapse id="collapse-1" class="drop-element">
@@ -50,11 +46,7 @@
                             </b-nav-item>
                             <b-nav-item v-b-toggle.collapse-2>
                                 <li>
-                                    <div class="
-                                                d-flex
-                                                align-items-center
-                                                justify-content-between
-                                            ">
+                                    <div class="d-flex align-items-center justify-content-between">
                                         <div>
                                             <i class="
                                                         ri-dashboard-line
@@ -74,10 +66,7 @@
                                 <b-nav-item>
                                     <router-link :to="{ name: 'home' }">
                                         <li>
-                                            <i class="
-                                                        ri-dashboard-line
-                                                        mr-3
-                                                    "></i>
+                                            <i class="ri-dashboard-linemr-3"></i>
 
                                             dash
                                         </li>

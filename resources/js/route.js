@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 Vue.use(VueRouter);
 
+import prestart from './components/Common/prestart.vue'
 import Login from './components/Common/login.vue'
 import login2 from './components/Common/login2.vue'
 import userDashboard from './components/Common/userDashboard.vue'
@@ -11,9 +12,15 @@ import dashboard from './components/Common/dashboard.vue'
 
 const router = new VueRouter({
     mode: 'history',
-    routes : [
+    routes: [
         { 
             path: '/', 
+            component: prestart,
+            name: 'prestart',
+          
+        },
+        { 
+            path: '/login', 
             component: Login,
             name: 'Login',
           

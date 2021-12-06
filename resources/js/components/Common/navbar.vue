@@ -33,13 +33,7 @@
                         <img src="https://www.w3schools.com/howto/img_avatar.png" class="avatar" alt="User Image" />
                         <span style="color: black">Admin</span>
                     </a>
-                    <div class="dropdown-menu mt-3" x-placement="bottom-start" style="
-                                position: absolute;
-                                transform: translate3d(950px, 52px, 0px);
-                                top: 0px;
-                                left: 0px;
-                                will-change: transform;
-                            ">
+                    <div class="dropdown-menu mt-3" x-placement="bottom-start" style="position: absolute;transform: translate3d(950px, 52px, 0px);top: 0px;left: 0px;will-change: transform;">
                         <a href="" class="dropdown-item"><i class="fas fa-user-edit mr-2"></i>
                             Change Avatar</a>
                         <div class="dropdown-divider"></div>
