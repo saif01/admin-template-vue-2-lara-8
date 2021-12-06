@@ -10,7 +10,7 @@
                     <b-nav-item>
                         <router-link :to="{ name: 'dashboard' }">
                             <li>
-                                <i class="ri-dashboard-line mr-3"></i>
+                                <i class="fab fa-buromobelexperte mr-3"></i>
 
                                 Dashboard
                             </li>
@@ -22,12 +22,13 @@
                             <li>
                                 <div class="d-flex align-items-center justify-content-between">
                                     <div>
-                                        <i class="ri-dashboard-line mr-3"></i>
+                                        <i class="fab fa-buromobelexperte mr-3"></i>
 
                                         Dashboard
                                     </div>
 
-                                    <i class="ri-arrow-left-s-line"></i>
+                                    <!-- <i class="ri-arrow-left-s-line"></i> -->
+                                    <i class="fas fa-angle-right"></i>
                                 </div>
                             </li>
                             </router-link>
@@ -38,7 +39,7 @@
                             <b-nav-item>
                                 <router-link :to="{ name: 'home' }">
                                     <li>
-                                        <i class="ri-dashboard-line mr-3"></i>
+                                        <i class="fab fa-buromobelexperte mr-3"></i>
 
                                         dash
                                     </li>
@@ -48,15 +49,13 @@
                                 <li>
                                     <div class="d-flex align-items-center justify-content-between">
                                         <div>
-                                            <i class="
-                                                        ri-dashboard-line
-                                                        mr-3
-                                                    "></i>
+                                            <i class="fab fa-buromobelexperte mr-3"></i>
 
                                             Dash2
                                         </div>
 
-                                        <i class="ri-arrow-left-s-line"></i>
+                                        <!-- <i class="ri-arrow-left-s-line"></i> -->
+                                        <i class="fas fa-angle-right"></i>
                                     </div>
                                 </li>
                             </b-nav-item>
@@ -66,7 +65,7 @@
                                 <b-nav-item>
                                     <router-link :to="{ name: 'home' }">
                                         <li>
-                                            <i class="ri-dashboard-linemr-3"></i>
+                                            <i class="fab fa-buromobelexperte mr-3"></i>
 
                                             dash
                                         </li>
@@ -79,7 +78,7 @@
                     <b-nav-item>
                         <router-link :to="{ name: 'form' }">
                                 <li>
-                                    <i class="ri-information-line mr-3"></i>
+                                    <i class="fab fa-buromobelexperte mr-3"></i>
 
                                     Form
                                 </li>
@@ -89,7 +88,7 @@
                     <b-nav-item>
                         <router-link :to="{ name: 'table' }">
                             <li>
-                                <i class="ri-table-line mr-3"></i>
+                                <i class="fab fa-buromobelexperte mr-3"></i>
 
                                 Table
                             </li>
@@ -99,7 +98,7 @@
                     <router-link :to="{ name: 'home' }">
                         <b-nav-item>
                             <li>
-                                <i class="ri-dashboard-line mr-3"></i>
+                                <i class="fab fa-buromobelexperte mr-3"></i>
 
                                 Dashboard
                             </li>
@@ -120,9 +119,6 @@
 .sidebar-container {
     height: 100vh;
     left: 0;
-    /* overflow-x: hidden;
-    overflow-y: auto;
-    text-align: left; */
     background: #44a08d;
     background: -webkit-linear-gradient(to bottom, #093637, #44a08d);
     background: linear-gradient(to bottom, #093637, #44a08d);
@@ -147,6 +143,9 @@ a {
 
 i{
     font-size: large;
+}
+.drop-element-2{
+    margin-left: 1.5rem;
 }
 
 .drop-element {

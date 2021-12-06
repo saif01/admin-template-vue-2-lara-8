@@ -5,8 +5,8 @@ window.Vue = require('vue').default;
 // Project Routes
 import router from './route'
 
-// remix icon
-import 'remixicon/fonts/remixicon.css'
+// // remix icon
+// import 'remixicon/fonts/remixicon.css'
 
 import  BootstrapVue from 'bootstrap-vue';
 Vue.use(BootstrapVue)

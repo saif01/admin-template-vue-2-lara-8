@@ -3,30 +3,35 @@
         <div id="navbar-container" class="shadow-sm">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="btn ml-1" @click="(active = !active), response(active)">
-                    <i class="ri-menu-line"></i>
+                    <!-- <i class="ri-menu-line"></i> -->
+                    <i class="fas fa-bars"></i>
                 </div>
 
                 <div class="d-flex flex-items align-items-center">
                     <div class="d-flex align-items-center" :class="{ 'icon-hide-reponsive': active }">
                         <div class="mx-2">
-                            <i class="ri-search-line"></i>
+                            <!-- <i class="ri-search-line"></i> -->
+                            <i class="fas fa-search"></i>
                         </div>
                         <b-dropdown variant="none" no-caret>
                             <template #button-content>
-                                <i class="ri-message-2-line"></i>
+                                <!-- <i class="ri-message-2-line"></i> -->
+                                <i class="far fa-comment-dots"></i>
                             </template>
                             <b-dropdown-item href="#">An item</b-dropdown-item>
                             <b-dropdown-item href="#">Another item</b-dropdown-item>
                         </b-dropdown>
                         <b-dropdown variant="none" no-caret>
                             <template #button-content>
-                                <i class="ri-notification-3-line"></i>
+                                <!-- <i class="ri-notification-3-line"></i> -->
+                                <i class="far fa-bell"></i>
+                                <span class="badge badge-warning badge_notification">9</span>
                             </template>
                             <b-dropdown-item href="#">An item</b-dropdown-item>
                             <b-dropdown-item href="#">Another item</b-dropdown-item>
                         </b-dropdown>
                         <div class="mx-2">
-                            <i :class="{'ri-fullscreen-line': fullMode,'ri-fullscreen-exit-line': !fullMode,}" @click="(fullMode = !fullMode), toggle()"></i>
+                            <i :class="{'fas fa-compress': fullMode,'fas fa-compress-arrows-alt': !fullMode,}" @click="(fullMode = !fullMode), toggle()"></i>
                         </div>
                     </div>
                     <a class="nav-link py-1" id="check" data-toggle="dropdown" href="#">
@@ -112,6 +117,12 @@ i {
 
 a {
     text-decoration: none;
+}
+
+.badge_notification{
+    position: absolute ;
+    top: 0px ;
+    left: 21px ;
 }
 
 .btn_border:focus{
