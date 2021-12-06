@@ -2,7 +2,7 @@
     <div>
         <div id="navbar-container" class="shadow-sm">
             <div class="d-flex justify-content-between align-items-center">
-                <div class="btn ml-1" @click="(active = !active), response(active)">
+                <div class="btn ml-1" id="collapseIcon" @click="(active = !active), response(active)">
                     <!-- <i class="ri-menu-line"></i> -->
                     <i class="fas fa-bars"></i>
                 </div>

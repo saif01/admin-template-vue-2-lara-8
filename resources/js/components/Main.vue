@@ -41,8 +41,15 @@ import footer from "./Common/footer.vue";
                 this.response = res;
             },
         },
-        mounted() {
-            console.log('Component mounted.')
+        watch:{
+            $route (to, from){
+                const size= window.innerWidth ;
+                if(size < 700){
+                    document.getElementById("collapseIcon").click();
+                }else{
+                    
+                }
+            }
         }
     }
 </script>
